@@ -1,4 +1,4 @@
-/*
+
    HardKit - Servo Sweep Minimal Example
    -------------------------------------
    This example demonstrates basic servo movement using the HardKit library.
@@ -23,4 +23,4 @@
      reduce the motion range (e.g., sweep between 10° and 170°).
    - If your board resets during motion, power the servo
      from a separate 5–6V buck converter and share GNDs.
- */
+ 
