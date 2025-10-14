@@ -10,6 +10,7 @@
    Description:
    The servo gradually moves from 0° to 180° and then back to 0° in small steps.
    Each step waits 10 ms to create a smooth sweeping motion.
+   I am using the cheap SG90 Servo from Aliexpress and it supports 180 degrees. If you are using something else you may wanna update the src file !
  
    Wiring:
    - Servo signal  → D9
