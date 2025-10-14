@@ -10,7 +10,7 @@ HardKit - Potentiometer Read Serial Example
   Description:
   The potentiometer’s center pin (wiper) is connected to the analog input A0.
   Turning the knob changes the voltage between 0V and 5V.
-  The code reads the raw ADC value, converts it to millivolts, and prints both.
+  The code reads the raw ADC value, converts it to millivolts also we have mapRange function with just three arguments given (ex: mapRange(A0, 0, 180) you can map the raw value between given arguments.
 
   Wiring:
   - Potentiometer left pin   → GND
