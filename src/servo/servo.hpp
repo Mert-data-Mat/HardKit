@@ -12,10 +12,10 @@
 namespace HardKit {
 
 struct ServoConfig {
-  float minDeg = 0.0f;     // minimum angle (degrees)
-  float maxDeg = 360.0f;   // maximum angle (degrees)
-  uint16_t minUs = 1000;   // PWM pulse width at minDeg
-  uint16_t maxUs = 2000;   // PWM pulse width at maxDeg
+  float minDeg = 0.0f;     // minimum angle
+  float maxDeg = 180.0f;   // most of the servos maximum angle (degrees)
+  uint16_t minUs = 500;   // PWM pulse width at minDeg
+  uint16_t maxUs = 2500;   // PWM pulse width at maxDeg / turned out 1000-2000 is not enough range for servo the use full capability.
 };
 
 class ServoSimple {
