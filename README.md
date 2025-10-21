@@ -1,5 +1,5 @@
 # 🧰 HardKit
-**Modular Arduino Hardware Toolkit**
+**Modular Hardware Toolkit for the electronics**
 
 ---
 
