@@ -1,3 +1,14 @@
+/*
+
+Wiring: 
+
+    ENS160          Arduino
+
+    VIN     -->     3.3V
+    GND     -->     GND
+    SCL     -->     SCL
+    SDA     -->     SDA
+*/
 #include <HardKit.hpp>
 using namespace HardKit;
 
