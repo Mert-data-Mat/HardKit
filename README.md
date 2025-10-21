@@ -12,11 +12,11 @@ Just plug in your hardware, include HardKit, and start experimenting.
 
 ---
 
-##  Current Modules
-| Module | Description |
+##  Current Supported Components
+| Component | Description |
 |---------|--------------|
-| **ServoSimple** | Control standard hobby servos with easy degree or microsecond commands. |
-| **PotentiometerSimple** | Read analog values and convert them to voltage or angle. |
+| **Servo** | Control standard hobby servos with easy degree or microsecond commands. |
+| **Potentiometer** | Read analog values and convert them to voltage or angle. |
 | **HC-SR04** | Measure distance with one simple call using an ultrasonic sensor. |
 | **ENS160** | Read air quality, temperature, and humidity (ENS160 + AHT21 combo). |
 
