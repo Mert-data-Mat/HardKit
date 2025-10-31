@@ -24,4 +24,5 @@
      reduce the motion range (e.g., sweep between 10° and 170°).
    - If your board resets during motion, power the servo
      from a separate 5–6V buck converter and share GNDs.
- 
+   - I will also add a support for the 360 degree servos.
+
