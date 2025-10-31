@@ -22,7 +22,7 @@ void setup() {
 void loop() {
   Ens160Aht::Data d;                // make a box for results
   if (air.read(d)) {                // if data is ready
-    Serial.print("T: "); Serial.print(d.tC - 3); //Subtracted 3 bc heat from the other sensors raw results are not accurate.
+    Serial.print("T: "); Serial.print(d.tC - 3); //Subtracted 3 bc heat from the other sensors affects this temp sensor.
     Serial.print(" °C  H: "); Serial.print(d.rH);
     Serial.print("%  AQI: "); Serial.print(d.aqi); // AQI stands for Air Quality Index, 1 is better
     Serial.print("  TVOC: "); Serial.print(d.tvoc_ppb); //Total volatile organic compounds ??

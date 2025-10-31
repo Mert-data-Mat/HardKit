@@ -40,10 +40,6 @@ public:
     hw.writeMicroseconds(us);
   }
 
-  // simple detach
-  void detach() {
-    hw.detach();
-  }
 
 private:
   Servo hw;          // Arduino's built-in Servo object
